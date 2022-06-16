@@ -3,6 +3,8 @@
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 0;
+  max-width: 100%;
+  overflow: scroll;
 }
 body {
   background-color: rgb(81, 81, 81);
@@ -49,10 +51,8 @@ a:active {
 }
 p {
   width: max-content;
-  max-width: 100%;
 }
 img {
-  max-width: 100%;
   border-radius: 0.3rem;
 }
 pre {
